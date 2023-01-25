@@ -3,6 +3,10 @@
 ## Docker
 ### exec
 ```docker exec -ti rails-tutorial_app_1 bash```
-
-## つぎはここから 2023/1/20
-https://railstutorial.jp/chapters/static_pages?version=5.1#sec-exercises_generated_static_pages
+### bundle update
+```docker-compose run app bundle update```
+## つぎはここから 2023/1/25
+https://railstutorial.jp/chapters/static_pages?version=5.1#sec-static_pages_conclusion
+### memo
+docker-compose upでrailsコンテナが落ちる。Gemfile.lockの中身を削除 -> docker-compose build --no-cache -> docker-compose run app bundle update -> docker-compose run app bundle install
+上記を実施しても変わらず
