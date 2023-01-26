@@ -5,6 +5,8 @@
 ```docker exec -ti rails-tutorial_app_1 bash```
 ### bundle update
 ```docker-compose run app bundle update```
+### exec guard（自動テスト）
+```bundle exec guard```
 ## つぎはここから 2023/1/25
 https://railstutorial.jp/chapters/static_pages?version=5.1#sec-static_pages_conclusion
 ### memo
